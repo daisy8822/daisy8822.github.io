@@ -1,39 +1,42 @@
-h1{
-    color:darkslategray;
-    font-family:arial;
-    text-align: center;
-    text-decoration:underline;
-}
-h2{
-    color:purple;
-    text-align: center;
-    text-shadow: 5px 5px 5px lightpink;
-    text-align:center;
-}
-body{
-    background-color:grey;
+/* Hi Freshmen Title */
+.bg-light{
+    background-color: darkslategray!important;
     background-attachment:fixed;
-    background-size:cover;
-    background-repeat: repeat;
-    border-style:solid;
-    border-width:10px;
-    border-radius: 5px;
-    margin:10px 10px 10px 10px;
-    padding:10px 10px 10px 10px;
 }
-#p1{
-    color:blue;
+
+.navbar-light .navbar-brand{
+    color:white;
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    font-size: 30px
 }
-#p2{
-    color:orange;
+/* Navbar Font */
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+  }
+  .carousel-item .d-block{
+    margin: auto;
 }
-#p3{
-    color:#03a9f4;
+#carouselExampleIndicators{
+    background-color: lightgray;
+    background-attachment:fixed;
 }
-.tacos{
-    font-size:72px;
-    color:peru;
+.notice{
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Crete Round', serif;
 }
-img{
-    height:200px;
+.col-lg-6{
+    padding:auto;
+    image-orientation:center;
+}
+#qrcode{
+    padding-left: 80px;
+}
+.container{
+    padding-top:20px;
 }
